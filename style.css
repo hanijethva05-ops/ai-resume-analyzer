@@ -1,0 +1,125 @@
+/* =========================================================
+   AI RESUME ANALYZER - PROFESSIONAL UI
+   ========================================================= */
+
+
+/* ---------- APP ---------- */
+
+.stApp {
+    background: #0d0f14;
+    color: #f1f3f4;
+}
+
+.block-container {
+    max-width: 1500px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+/* ---------- SIDEBAR ---------- */
+
+section[data-testid="stSidebar"] {
+    background: #12141b;
+    border-right: 1px solid #292d3a;
+}
+
+section[data-testid="stSidebar"] .block-container {
+    padding: 1.5rem 1rem;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.stButton > button {
+    width: 100%;
+    min-height: 42px;
+    border-radius: 10px;
+    border: 1px solid #30374a;
+    background: #171b24;
+    color: #e7eaf0;
+    font-weight: 650;
+}
+
+.stButton > button:hover {
+    border-color: #687cff;
+    background: #202537;
+    color: white;
+}
+
+
+/* ---------- PRIMARY BUTTON ---------- */
+
+.stButton > button[kind="primary"] {
+    background: linear-gradient(
+        90deg,
+        #4f6cff,
+        #8b5cf6
+    );
+    border: none;
+    color: white;
+    font-weight: 750;
+}
+
+
+/* ---------- FILE UPLOADER ---------- */
+
+[data-testid="stFileUploader"] {
+    background: #171a22;
+    border: 1px dashed #394052;
+    border-radius: 13px;
+    padding: 10px;
+}
+
+
+/* ---------- TEXT AREA ---------- */
+
+textarea {
+    background: #171a22 !important;
+    border: 1px solid #303646 !important;
+    color: #edf0f5 !important;
+    border-radius: 12px !important;
+}
+
+
+/* ---------- METRIC ---------- */
+
+[data-testid="stMetric"] {
+    background: #171a22;
+    border: 1px solid #2b3040;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+
+/* ---------- EXPANDER ---------- */
+
+[data-testid="stExpander"] {
+    background: #171a22;
+    border: 1px solid #2b3040;
+    border-radius: 14px;
+}
+
+
+/* ---------- ALERTS ---------- */
+
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+
+/* ---------- DIVIDER ---------- */
+
+hr {
+    border-color: #292e3b;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+.footer-text {
+    text-align: center;
+    color: #666e7d;
+    font-size: 11px;
+    padding-top: 30px;
+}
