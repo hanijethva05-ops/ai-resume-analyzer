@@ -4,7 +4,7 @@ An AI-powered resume analysis tool built with Python and Streamlit to help job s
 
 ## 🚀 Live Demo
 
-**Live App:** [Open AI Resume Analyzer](https://ai-resume-analyzer-bfitwuunnrnjb6zcktrqjf.streamlit.app/)
+**Live App:** [Open AI Resume Analyzer](https://ai-resume-analyzer-bfitwuunrnrjb6zcktrqjf.streamlit.app/)
 
 ## ✨ Features
 
